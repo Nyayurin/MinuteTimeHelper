@@ -15,7 +15,7 @@ public static class GameTime {
         // 2400 -> 24 -> 0
         var hours = time / 100 % 24;
         var hoursTimescale = hours * 6;
-        var days = SDate.Now().DaysSinceStart;
+        var days = SDate.Now().DaysSinceStart - 1;
         if (hours < 6) days++;
         var daysTimescale = days * 24 * 6;
         return (timescale + hoursTimescale + daysTimescale) * TICKS_PER_TIMESCALE;

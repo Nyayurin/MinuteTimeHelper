@@ -24,6 +24,6 @@ public class TickTimeApi {
         var syncTicks = GameTime.parse(Game1.timeOfDay);
         var delta = syncTicks - time;
         time = syncTicks;
-        onSync.ForEach(action => action(time, delta));
+        onSync.ForEach(action => action(syncTicks, delta));
     }
 }
