@@ -1,8 +1,0 @@
-C:\Users\Yurn\RiderProjects\TickTime\bin\Debug\net6.0\TickTime.deps.json
-C:\Users\Yurn\RiderProjects\TickTime\bin\Debug\net6.0\TickTime.dll
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.csproj.AssemblyReference.cache
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.AssemblyInfoInputs.cache
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.AssemblyInfo.cs
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.csproj.CoreCompileInputs.cache
-C:\Users\Yurn\RiderProjects\TickTime\obj\Debug\net6.0\TickTime.dll
