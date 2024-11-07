@@ -1,10 +1,10 @@
 ﻿{
-  "Name": "Tick Time Helper",
+  "Name": "Minute time helper",
   "Author": "Yurin",
-  "Version": "1.0.3",
-  "Description": "A redesigned Stardew Valley Time",
-  "UniqueID": "Yurin.TickTimeHelper",
-  "EntryDll": "TickTimeHelper.dll",
+  "Version": "1.0.4",
+  "Description": "Minute time helper",
+  "UniqueID": "Yurin.MinuteTimeHelper",
+  "EntryDll": "MinuteTimeHelper.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [ "Github:Nyayurin/TickTimeHelper" ]
+  "UpdateKeys": [ "Github:Nyayurin/MinuteTimeHelper" ]
 }

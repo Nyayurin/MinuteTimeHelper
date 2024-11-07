@@ -1,16 +1,16 @@
 ﻿using StardewModdingAPI;
 
-namespace TickTimeHelper;
+namespace MinuteTimeHelper;
 
 internal class Mod : StardewModdingAPI.Mod {
-    private readonly TickTimeApi tickTimeApi = new();
+    private readonly TimeApi timeApi = new();
     public override void Entry(IModHelper helper) {
-        helper.Events.GameLoop.SaveLoaded += (_, _) => tickTimeApi.load();
-        helper.Events.GameLoop.UpdateTicking += (_, _) => tickTimeApi.update();
-        helper.Events.GameLoop.TimeChanged += (_, _) => tickTimeApi.sync();
+        helper.Events.GameLoop.SaveLoaded += (_, _) => timeApi.load();
+        helper.Events.GameLoop.UpdateTicking += (_, _) => timeApi.update();
+        helper.Events.GameLoop.TimeChanged += (_, _) => timeApi.sync();
     }
 
-    public override TickTimeApi GetApi() {
-        return tickTimeApi;
+    public override TimeApi GetApi() {
+        return timeApi;
     }
 }
