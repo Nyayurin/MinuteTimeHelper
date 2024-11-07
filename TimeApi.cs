@@ -25,7 +25,6 @@ public class TimeApi {
         if (interval > Game1.realMilliSecondsPerGameMinute + location.ExtraMillisecondsPerInGameMinute) {
             time++;
             interval = 0;
-            Console.WriteLine($"update: {time}");
             onUpdate.ForEach(action => action(time));
         }
     }
@@ -35,7 +34,6 @@ public class TimeApi {
         var delta = syncTicks - time;
         time = syncTicks;
         interval = 0;
-        Console.WriteLine($"sync: {time}, delta: {delta}");
         onSync.ForEach(action => action(syncTicks, delta));
     }
     
