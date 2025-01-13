@@ -1,5 +1,5 @@
-﻿/.idea/
-/bin/
-/obj/
+﻿.idea
+bin
+obj
 
-/MinuteTimeHelper.sln.DotSettings.user
+MinuteTimeHelper.sln.DotSettings.user
